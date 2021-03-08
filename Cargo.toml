@@ -1,0 +1,12 @@
+[package]
+name = "perf"
+version = "0.1.0"
+authors = ["Vitaliy Ognev <vitaliy.ognev@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+argparse = "0.2.2"
+ctrlc = "3.1.8"
+human_format = "1.0.3"
