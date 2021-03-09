@@ -15,3 +15,7 @@ jobs:
     - uses: actions/checkout@v2
     - name: Build
       run: cargo build --verbose --release
+    - uses: actions/upload-artifact@v2
+      with:
+       name: perf
+       path: target/release/perf
